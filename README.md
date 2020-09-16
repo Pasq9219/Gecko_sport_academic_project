@@ -10,7 +10,8 @@ After clustering these items, a Python GUI was created to interact with users an
 
 ***Folders and files***
 1. Ingestion: in this folder there are Colabs used for each website to scrape date with ***Selenium***
-2. Machine_learning_for_technical_cluster_and_Twitter_social: in this folder there are colabs used for Machine Learning in ***DataBricks*** to assign technical Cluster to items using TF-IDF and Naive Bayes algorithms and another Colab used to catch sentiment on Twitter by counting # and @ of brands from 01/01/2020 to 31/07/2020 in order to assign social cluster;
+2. Union.ipyng: Databricks Notebook used to merge single site store DB
+3. Machine_learning_for_technical_cluster_and_Twitter_social: in this folder there are colabs used for Machine Learning in ***DataBricks*** to assign technical Cluster to items using TF-IDF and Naive Bayes algorithms and another Colab used to catch sentiment on Twitter by counting # and @ of brands from 01/01/2020 to 31/07/2020 in order to assign social cluster;
 3. Fact_table_DQ_SQL_GUI_Tkinter: in this folder there are:
   1. DB_unificato_v1.sql : factual table stored as sqlite DB used as DB for tkinter GUI
   2. Project_v2.py: python code to create tkinter GUI
