@@ -19,5 +19,5 @@ After clustering these items, a Python GUI was created to interact with users an
  
  
  ***Tips***
- To let the tkinter GUI work, just rembember to change the path where images are saved in the code and be sure you have the ***PIL library installed
+ To let the tkinter GUI work, just rembember to change the path where images are saved in the code and be sure you have the ***PIL library installed***
  
