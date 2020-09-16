@@ -6,9 +6,9 @@ This repository contains files for the group project for the exam Big Data withi
 ***Intro to the project***
 
 The project aim was trying to retrieve data from 4 sport store websites for the Running and trying to cluster items in technical, ecological, eccentric and social classes.
-After clustering these items, a Python GUI using was created to interact with users and assign them the same cluster of the items scraped. In this way an user can have all in one place a dynamic list to shop, close to his/her interests and coming from multiple sources.
+After clustering these items, a Python GUI was created to interact with users and assign them the same cluster of the items scraped. In this way an user can have all in one place a dynamic list to shop, close to his/her interests and coming from multiple sources.
 
-***Folders and file***
+***Folders and files***
 1. Ingestion: in this folder there are Colabs used for each website to scrape date with ***Selenium***
 2. Machine_learning_for_technical_cluster_and_Twitter_social: in this folder there are colabs used for Machine Learning in ***DataBricks*** to assign technical Cluster to items using TF-IDF and Naive Bayes algorithms and another Colab used to catch sentiment on Twitter by counting # and @ of brands from 01/01/2020 to 31/07/2020 in order to assign social cluster;
 3. Fact_table_DQ_SQL_GUI_Tkinter: in this folder there are:
@@ -19,5 +19,5 @@ After clustering these items, a Python GUI using was created to interact with us
  
  
  ***Tips***
- To let the tkinter GUI working rembember to change the path where images are saved in the code and be sure you have the PIL library installed
+ To let the tkinter GUI work, just rembember to change the path where images are saved in the code and be sure you have the ***PIL library installed
  
